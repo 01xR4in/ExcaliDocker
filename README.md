@@ -65,4 +65,4 @@ Feel free to submit issues or pull requests if you have suggestions for improvem
 
 ## License
 
-This project is open-source. (Add your chosen license here, e.g., MIT)
+This project is licensed under the [MIT License](LICENSE).
