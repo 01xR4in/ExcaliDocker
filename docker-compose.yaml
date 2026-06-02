@@ -12,6 +12,11 @@ services:
     read_only: true # Mount the container's root filesystem as read-only
     cap_drop:
       - ALL
+    cap_add:
+      - CHOWN
+      - SETUID
+      - SETGID
+      - NET_BIND_SERVICE
     security_opt:
       - no-new-privileges:true
     tmpfs: # Set writable RAM-backed scratch paths for nginx needs despite read_only: true
