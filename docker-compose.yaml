@@ -7,7 +7,7 @@ services:
       - "${HOST_PORT:-3030}:80" # Loads port from .env, otherwises defaults to 3030
     restart: unless-stopped
     # Ressource cap
-    mem_limit: 256
+    mem_limit: 256m
     cpus: 1
     read_only: true # Mount the container's root filesystem as read-only
     cap_drop:
