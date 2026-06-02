@@ -6,6 +6,10 @@ services:
     ports:
       - "${HOST_PORT:-3030}:80" # Loads port from .env, otherwises defaults to 3030
     restart: unless-stopped
+    # Ressource cap
+    mem_limit: 256
+    cpus: 1
+
     healthcheck:
       test: ["CMD-SHELL", "wget -qO- http://localhost/ >/dev/null 2>&1 || exit 1"]
       interval: 30s
