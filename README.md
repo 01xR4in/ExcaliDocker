@@ -4,6 +4,8 @@ A homemade, lightweight Docker Compose setup to easily spin up a local instance 
 
 This project is perfect for self-hosting your own private drawing board on your local network or homelab without relying on external servers.
 
+This project is now moved over to codeberg.org at this url : https://codeberg.org/r4in/ExcaliDocker.
+
 
 ## Features
 
